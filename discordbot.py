@@ -19,12 +19,8 @@ async def ping(ctx):
 
 
 @bot.command()
-async def しね(ctx):
+async def sine(ctx):
     await ctx.send('おまえがしね')
 
- 
-    
-    
-    
-    
+   
 bot.run(token)
