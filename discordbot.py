@@ -22,5 +22,12 @@ async def ping(ctx):
 async def sine(ctx):
     await ctx.send('おまえがしね')
 
-   
+    
+@bot.command()
+async def unko(ctx):
+    await ctx.send('それはエンド')
+    
+    
+    
+    
 bot.run(token)
