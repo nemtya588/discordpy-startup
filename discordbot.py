@@ -28,6 +28,14 @@ async def うんこ(ctx):
     await ctx.send('それはエンド')
     
     
-    
-    
+@bot.command()
+async def でぐ(ctx):
+    await ctx.send('神')   
+ 
+
+@bot.command()
+async def くさい(ctx):
+    await ctx.send('みんたのこと？')
+
+
 bot.run(token)
