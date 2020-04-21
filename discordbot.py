@@ -36,6 +36,18 @@ async def でぐ(ctx):
 @bot.command()
 async def くさい(ctx):
     await ctx.send('みんたのこと？')
+    
+    
+@client.event
+async def on_message(message):
+    if client.user in message.mentions:
+        
+        reply = f`{message.author.mention}なんだクソガキ‘
+        
+        await message.channel.send(reply)
+    
+    
+    
 
 
 bot.run(token)
