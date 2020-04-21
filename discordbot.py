@@ -46,8 +46,5 @@ async def on_message(message):
         
         await message.channel.send(reply)
     
-    
-    
-
 
 bot.run(token)
